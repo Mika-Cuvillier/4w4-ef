@@ -51,3 +51,7 @@
     border: 2px dashed black;
     background-color: gray;
 }
+
+.cours section:nth-child(1) article:focus{
+    background-color: red;
+}
