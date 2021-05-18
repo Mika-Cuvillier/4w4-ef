@@ -8,9 +8,13 @@
  */
 global $tPropriété;
 ?>
-
-<article>
-    <p><?php echo $tPropriété['typeCours']; ?></p>
-	<a href="<?php echo get_permalink() ?>"><?php echo $tPropriété['sigle']; ?></a>
-	<p><?php echo $tPropriété['nbHeure']; ?></p>
-</article>
+<section class="sectionArticle">
+    <div>
+        <p><?php echo $tPropriété['session']; ?></p>
+    </div>
+    <article class="sessionArticle">
+        <p><?php echo $tPropriété['typeCours']; ?></p>
+	    <a href="<?php echo get_permalink() ?>"><?php echo $tPropriété['sigle']; ?></a>
+	    <p><?php echo $tPropriété['nbHeure']; ?></p>
+    </article>
+</section>

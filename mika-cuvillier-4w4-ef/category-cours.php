@@ -33,12 +33,11 @@ get_header();
 			while ( have_posts() ) :
 				the_post();
                 convertirTableau($tPropriété);
-				//print_r($tPropriété);
-				if ($tPropriété['typeCours'] != $precedent): 
+				if ($tPropriété['session'] != $precedent): 
 					if ("XXXXXX" != $precedent)	: ?>
 						</section>
 					<?php endif; ?>	
-					<section ?>
+					<section>
 				<?php endif ?>	
 
 				<?php if (in_array($tPropriété['typeCours'], ['Web', 'Jeu', 'Spécifique']) ) : 

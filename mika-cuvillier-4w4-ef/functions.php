@@ -236,6 +236,7 @@ function extraire_cours($query){
 	{
 		$query->set('posts_per_page', -1);
 		$query->set('orderby', 'session');
+		$query->set('meta_key', 'session');
 		$query->set('order', 'asc');
 	}
 

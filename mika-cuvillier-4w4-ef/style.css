@@ -1818,4 +1818,43 @@ La barre du millieu
 #secondary {
   padding-left: 8%;
 }
+
+/* local session
+--------------------------------------------- */
+.sessionArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  width: 350px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.sectionArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.sectionArticle div p {
+  font-size: 2rem;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
