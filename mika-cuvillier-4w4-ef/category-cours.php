@@ -43,6 +43,8 @@ get_header();
 
 				<?php if (in_array($tPropriété['typeCours'], ['Web', 'Jeu', 'Spécifique']) ) : 
 						get_template_part( 'template-parts/content', 'cours' ); 
+						else :		
+							get_template_part( 'template-parts/content', 'cours' ); 
 				endif;	
 				$precedent = $tPropriété['typeCours'];
 			endwhile;?>
