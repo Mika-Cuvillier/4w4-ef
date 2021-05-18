@@ -235,7 +235,7 @@ function extraire_cours($query){
 	if ($query->is_category('cours'))
 	{
 		$query->set('posts_per_page', -1);
-		$query->set('orderby', 'title');
+		$query->set('orderby', 'session');
 		$query->set('order', 'asc');
 	}
 
