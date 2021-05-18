@@ -7,6 +7,14 @@
     width: 350px;
     height: 150px;
     margin-top: 20px;
+    @include petit_ecran{
+        p{
+            display: none;
+        }
+        a{
+            transform: rotate(-90deg);
+        }
+    }
 }
 .sectionArticle{
     display: flex;

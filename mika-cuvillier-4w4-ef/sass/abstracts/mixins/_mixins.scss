@@ -23,3 +23,8 @@
 		@content;
 	}
 }
+@mixin petit_ecran{
+	@media (max-width : 600px){
+		@content;
+	}
+}

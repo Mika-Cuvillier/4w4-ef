@@ -1841,6 +1841,16 @@ La barre du millieu
   margin-top: 20px;
 }
 
+@media (max-width: 600px) {
+  .sessionArticle p {
+    display: none;
+  }
+  .sessionArticle a {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+}
+
 .sectionArticle {
   display: -webkit-box;
   display: -ms-flexbox;
